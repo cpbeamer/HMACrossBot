@@ -38,7 +38,7 @@ namespace NinjaTrader.NinjaScript.Strategies
 			{
 				Description									= @"Enter the description for your new custom Strategy here.";
 				Name										= "HMAcrossover";
-				Calculate									= Calculate.OnBarClose;
+				Calculate									= Calculate.OnEachTick;
 				IncludeCommission 							= true;
 				EntriesPerDirection							= 1;
 				EntryHandling								= EntryHandling.AllEntries;
